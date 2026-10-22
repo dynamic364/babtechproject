@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navv{
+  height: 62vh;
+  width: 100%;
+}
+.navv-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  height: 12vh;
+  
+}
+.loggo{
+  margin-left: 100px;
+}
+.loggo > h2 {
+  font-size: 35px;
+  font-weight: 200;
+  color: rgb(40, 138, 230);
+  font-family: fantasy;
+}
+.help {
+  color: black;
+}
+
+.linkk {
+  display: flex;
+  gap: 25px;
+  margin-right: 100px;
+
+}
+
+.linkk > a{
+  color: rgb(40, 138, 230);
+  font-size: 15px;
+  font-weight: 600;
+
+}
+.linkk > a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navv-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./navv-back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 47vh;
+}
+.navv-pic > input {
+  width: 600px;
+  background: transparent;
+  border-radius: 50px;
+  outline: none;
+  color: white;
+}

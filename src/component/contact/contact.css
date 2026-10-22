@@ -1,0 +1,115 @@
+.container {
+  width: 500px;
+  /* margin: 50px auto; */
+  background-color: #fff;
+  /* padding: 20px; */
+  border-radius: 8px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="%23333"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 20px;
+}
+.send-btn{
+  background-color: #007AFF;
+  color: #fff;
+  /* padding: 7px 145px; */
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkb{
+  display: flex;
+   align-items: center;
+  /* justify-content: start;  */
+  gap: 10px;
+}
+.checkb > p{
+  padding-top: 10px;
+}
+.chek{
+  transform: scale(1.7);
+}
+.poli{
+  color: #007AFF;
+  font-weight: 600;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  flex-direction: column;
+  height: 190vh;
+}
+.main > h2 {
+  font-size: 2.2rem;
+}
+.text-one > h3,
+.text-two > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/* .txtt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+} */
+.txtt > h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.txtt > p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.txtt > a {
+  font-size: 1.1rem;
+  color: #007AFF;
+}
+.main-child{
+  display: flex;
+  gap: 30px;
+}
+.text-three > h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.txttt > h4{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.txttt > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(0,0,0,0.5);
+}
